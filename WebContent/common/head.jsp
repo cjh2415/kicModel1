@@ -65,13 +65,13 @@ color: aqua;
 
 			
 			<li class="nav-item"><a
-				href="<%=request.getContextPath() %>//board/list?boardid=1"
+				href="<%=request.getContextPath() %>/view/board/list.jsp?boardid=1"
 				class="nav-link">공지사항</a></li>
 			<li class="nav-item"><a
-				href="<%=request.getContextPath() %>/board/list?boardid=2"
+				href="<%=request.getContextPath() %>/view/board/list.jsp?boardid=2"
 				class="nav-link">자유게시판</a></li>
 			<li class="nav-item"><a
-				href="<%=request.getContextPath() %>/board/list?boardid=3"
+				href="<%=request.getContextPath() %>/view/board/list.jsp?boardid=3"
 				class="nav-link">QnA</a></li>
 
 
